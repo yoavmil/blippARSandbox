@@ -10,13 +10,13 @@
 <body>
     <a-scene webar-scene="key: a17e2bc6-a37d-4056-95bf-984a71773f1a" vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: false" l oading-screen="enabled: false">
-        <a-camera webar-camera />
+        <a-camera webar-camera></a-camera>
         <a-assets>
-            <a-asset-item id="astronaut" src="models/astronaut.glb" />
+            <a-asset-item id="astronaut" src="models/astronaut.glb" ></a-asset-item>
         </a-assets>
         <a-entity webar-stage>
             <a-entity gltf-model="#astronaut" id="astronaut_1" rotation="0 0 0" position="0 0 0" scale="0.25 0.25 0.25"
-                webar-loadmonitor="elType: glb" />
+                webar-loadmonitor="elType: glb"></a-entity>
         </a-entity>
     </a-scene>
 </body>
